@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="Anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="374.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx_game.SceneController">
+    <children>
+        <ImageView fx:id="bgimage" fitHeight="374.0" fitWidth="500.0" layoutX="1.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../stickherobgimage.jpg" />
+            </image>
+        </ImageView>
+        <Pane fx:id="pane" layoutX="-25.0" layoutY="100.0" prefHeight="279.0" prefWidth="342.0">
+            <children>
+                <!--            <Circle fx:id="circile_face" fill="#d7ff1f" layoutX="88.0" layoutY="54.0" radius="10.0" stroke="BLACK" strokeMiterLimit="8.0" strokeType="INSIDE" strokeWidth="0.5" />-->
+                <!--            <Rectangle fx:id="secondPillar" height="182.0" layoutX="201.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="46.0" />-->
+                <!--            <Rectangle fx:id="firstpillar" height="182.0" layoutX="48.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="80.0" />-->
+                <!--            <Rectangle fx:id="rec_body" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="76.0" layoutY="64.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" width="23.0" />-->
+                <!--            <Line fx:id="line_band" endX="95.40000915527344" endY="-1.52587890625E-5" layoutX="-0.5" layoutY="49.0" startX="82.19999694824219" startY="-1.52587890625E-5" stroke="#df2626" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="200.0" strokeWidth="3.0" />-->
+                <!--            <Circle fx:id="circle_eye" fill="#f1f3f4" layoutX="92.0" layoutY="52.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" />-->
+                <!--            <Rectangle fx:id="stick" fill="BLACK" height="10.0" layoutX="122.0" layoutY="85.0" width="6.0" />-->
+                <!-- Add fx:id attribute to the Rectangle -->
+                <!--            <Rectangle fx:id="stick" arcHeight="0.0" arcWidth="0.0" fill="BLACK" height="10.0" layoutX="122.0" layoutY="85.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="6.0" />-->
+
+            </children>
+        </Pane>
+        <Text fx:id="wel_text" layoutX="136.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hold your finger on screen to stretch out the stick" textAlignment="CENTER" wrappingWidth="227.2000122070313">
+            <font>
+                <Font name="Arial" size="16.0" />
+            </font>
+        </Text>
+        <Text fx:id="initial_score" fill="#282828" layoutX="234.0" layoutY="46.0" strokeMiterLimit="5.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Text>
+        <Button fx:id="EndButton" layoutX="450.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: white;" text="END" />
+    </children>
+</AnchorPane>
