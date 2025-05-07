@@ -4,7 +4,7 @@ A simple yet engaging Stick Hero game built using JavaFX, where the player exten
 
 ---
 
-## 📹 Demo
+## Demo
 
 - **Video Demo**: [Google Drive Link](https://drive.google.com/drive/folders/1rIBDO2nllO1CVWYJ2yqsxZJ9VDQ5EDMq?usp=drive_link)  
 
